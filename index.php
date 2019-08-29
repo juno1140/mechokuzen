@@ -21,7 +21,7 @@
         <meta name="description" content="第41回第2種ＭＥ技術実力検定試験試験直前実力テスト。当サイトはME2種を受験する方に向けて制作した「実力テスト」サイトです。試験によく出る問題・または基本的な問題を30問用意しました（選択肢は3つです）。受験される方は今の実力を試してみてください。">
         <link rel="shortcut icon" href="./images/favicon.ico">
         <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
-        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:site" content="@juno_taku"/>
         <meta property="og:url" content="https://mechokuzen.site">
         <meta property="og:title" content="ＭＥ2種試験直前実力テスト">
