@@ -6,6 +6,8 @@ for ($i = 1; $i <= count($questions); $i++) {
 }
 $score = count(array_keys($ans, 1));
 
+require "log.php";
+
 if ($score == 30) {
     $message = "おめでとうございます！満点です！<br>合格への近道はとにかく過去問を解いて間違えた問題を復習し、解けるようにすることです。これを続ければ残り1週間でもかなり点数は上がります。<br>まだノー勉で「今年はダメかな」と思っている人もまだ諦めないでください！残り１週間で効率よく勉強して頑張れば点数は上がります。<br>試験が終わるまで気を抜かず勉強していきましょう！";
 } elseif ($score > 20) {
@@ -35,7 +37,7 @@ if ($score == 30) {
         <link rel="stylesheet" href="./css/nomalize.css">
         <link rel="stylesheet" href="./css/style.css">
         <title>ＭＥ2種試験直前実力テスト</title>
-        <meta name="description" content="第41回第2種ＭＥ技術実力検定試験試験直前実力テスト。当サイトはME2種を受験する方に向けて制作した「実力テスト」サイトです。試験によく出る問題・または基本的な問題を30問用意しました（選択肢は3つです）。受験される方は今の実力を試してみてください。">
+        <meta name="description" content="第41回第2種ＭＥ技術実力検定試験試験直前実力テスト。当サイトはME2種を受験する方に向けて制作した「実力テスト」サイトです。試験によく出る問題・または基本的な問題を30問用意しました（選択肢は3つです）。受験される方は今の実力を試してみてください。">
         <link rel="shortcut icon" href="./images/favicon.ico">
         <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
         <meta name="twitter:card" content="summary_large_image"/>
